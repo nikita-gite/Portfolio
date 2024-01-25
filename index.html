@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap">
+
+</head>
+<body>
+   
+       <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://github.com/your-github-username" target="_blank"><img src="data:image/png;base64,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" alt="GitHub"></a></li>
+            <li><a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank"><img src="data:image/png;base64,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" alt="LinkedIn"></a></li>
+        </ul>
+    </nav>
+    <header>
+      <section class="home" id="home">
+          <div class="max-width">
+              <div class="home-content">
+                  <div class="text-1">Hello, This is</div>
+                  <div class="text-2">Mayuresh Wani</div>
+                  <div class="text-3">And I'm a <b><u><u>MERN-STACK Developer</u></u></b><span class="typing"></span></div>
+                  <a href="#" class="hire-button">Hire me</a>
+                  <!-- <button onclick="downloadCV()" class="cv-button">Download CV</button> -->
+                  <a href="" download class="cv-button">Download CV</a>
+
+              </div>
+          </div>
+      </section>
+  </header>
+
+    
+
+    <!-- <header>
+        <div class="profile-picture">
+            <img src="WhatsApp Image 2023-12-22 at 2.35.26 PM.jpeg" alt="Your Photo">
+        </div>
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+    </header> -->
+<!-- about -->
+
+
+
+
+<section id="about">
+    <div class="about">
+        <h1 class="abouth">About Me</h1>
+        <div class="imgpara">
+            <div class="adminpic">
+                <img src="WhatsApp Image 2023-12-22 at 2.35.26 PM.jpeg" alt="admin">
+            </div>
+            <div class="para">
+                <p class="aboutp">
+                    <span style="font-weight: bold; font-size: larger;">HeLLo</span><br>
+                    <br><span style="color: #0ab187; font-weight: bold; font-size: x-large;">I'm Nikita Gite </span>
+                    <br><br>Studying Computer Engineering
+                    <br> In "SNJB College of Engineering ".<br> And a beginner in frontend development and learning
+                    <i class="fab fa-aws" style="font-size: larger; color: orange;"></i> cloud service.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- skills -->
+<section id="skills">
+    <div class="skiii">
+      <div>
+        <div class="myskill">
+          <h1>MY SKILLS</h1>
+        </div>
+        <div class="ms">
+          <div class="skills">
+            <h2>Html</h2>
+            <div class="bar">
+              <div class="html"><span>90%</span></div>
+            </div>
+            <h2>Css</h2>
+            <div class="bar">
+              <div class="css"><span>50%</span></div>
+            </div>
+            <h2>Aws</h2>
+            <div class="bar">
+              <div class="aws"><span>30%</span></div>
+            </div>
+            
+            <h2>Python</h2>
+            <div class="bar">
+              <div class="python"><span>40%</span></div>
+            </div>
+
+            <h2>Javascript</h2>
+            <div class="bar">
+              <div class="Javascript"><span>80%</span></div>
+            </div>
+
+            <h2>NodeJS</h2>
+            <div class="bar">
+              <div class="NodeJS"><span>80%</span></div>
+            </div>
+
+            <h2>ExpressJS</h2>
+            <div class="bar">
+              <div class="ExpressJS"><span>90%</span></div>
+            </div>
+
+            <h2>React</h2>
+            <div class="bar">
+              <div class="React"><span>70%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+    
+
+
+<!-- education -->
+
+<div class="education">
+    <div class="new_pro_head">
+      <h1>Education</h1>
+    </div>
+    <div class="session">
+      <div class="line_point">
+        <div class="point1"></div>
+        <div class="point2"></div>
+        <div class="point3"></div>
+      </div>
+      <div class="session_inner">
+        <div class="graduation">
+          <div>
+            <h3>Graduation</h3>
+          </div>
+          <p>SNJB COLLAGE OF ENGINEERING,CHANDWAD</p>
+          <p>B-tech (Computer Science)</p>
+          <div class="grade">
+            <p>CGPA: 9.36/10</p>
+            <div class="year">
+              <img src="https://devnamdev2003.github.io/img/icon/year.png" alt="" class="year_icon" />
+              <p>2020 - 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="xiith">
+          <div>
+            <h3>XIIth</h3>
+          </div>
+          <p>SHREE MAHAVIR JAIN COLLAGE LASALGAON</p>
+          <div class="grade">
+            <p>Percentage: 86.31%</p>
+            <div class="year">
+              <img src="https://devnamdev2003.github.io/img/icon/year.png" alt="" class="year_icon" />
+              <p>2019 - 2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="xth">
+          <div>
+            <h3>Xth</h3>
+          </div>
+          <p>JIJAMATA KANYA VIDYALAY LASALGAON</p>
+          <div class="grade">
+            <p>Percentage: 87.00%</p>
+            <div class="year">
+              <img src="https://devnamdev2003.github.io/img/icon/year.png" alt="" class="year_icon" />
+              <p>2017 - 2018</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm a passionate web developer with a strong background in front-end and back-end technologies.
+            I enjoy creating responsive and user-friendly websites that provide a great user experience.
+            Whether it's crafting elegant user interfaces or building robust server-side applications, I love
+            turning ideas into reality through code.
+        </p>
+    </section> -->
+    
+
+    <!--  -->
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Add your project details here -->
+        <div class="project">
+            <h3>BIKERENTAL</h3>
+            <p>Developed an Full-time excellent Bike Webapp with automation development using React and Node.js technology which is full stack for Client to provide bike rental service effortlessly.
+                Constructed strong Backend for maintainability,Organization and scalable website using Node.js, and mongodb. .
+                Contributed to the development and implementation of an innovation with compliances for buisness , customer , application security, financial services , incident response , preferred online bike rental application.
+                </p>
+        </div>
+        <div class="project">
+            <h3>TEXT TO AUDIO CONVERTER</h3>
+            <p>	Design enterprise and executed with responsive design principles with security and data privacy to project utilizing with HTML, CSS, and JavaScript concepts, showcasing strong frontend development skills.
+                	Created an intuitive and user-friendly web application enabling users to input text and convert it into audible audio. .
+                	JavaScript scripting language for Effectively text-to-speech functionality, enhancing accessibility and code reviews.
+                </p>
+        </div>
+    </section>
+</body>
+</html>
+
+
+<div class="contain">
+
+    <div class="wrapper">
+  
+      <div class="form">
+        <h4>GET IN TOUCH</h4>
+        <h2 class="form-headline">Send us a message</h2>
+        <form id="submit-form" action="">
+          <p>
+            <input id="name" class="form-input" type="text" placeholder="Your Name*">
+            <small class="name-error"></small>
+          </p>
+          <p>
+            <input id="email" class="form-input" type="email" placeholder="Your Email*">
+            <small class="name-error"></small>
+          </p>
+          <p class="full-width">
+            <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+            <small></small>
+          </p>
+          <p class="full-width">
+            <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+            <small></small>
+          </p>
+          <p class="full-width">
+            <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+          </p>
+          <p class="full-width">
+            <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+            <button class="reset-btn" onclick="reset()">Reset</button>
+          </p>
+        </form>
+      </div>
+  
+      <div class="contacts contact-wrapper">
+  
+        <ul>
+          <span class="hightlight-contact-info">
+            <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> gitenikita2002@gmail.com</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 9359760020</span></li>
+          </span>
+        </ul>
+      </div>
+    </div>
+  </div>
